@@ -1,22 +1,5 @@
 
-body {
-    font-family: Arial, sans-serif;
-}
-
-p {
-    font-size: 20px;
-}
-
-h1, h2, h3 {
-    color: #333;
-}
-
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
+/* Estilos para las imágenes de VR y AR */
 .image-container img {
     border-radius: 10px;    /* Bordes redondeados */
     width: 80%;             /* Tamaño más pequeño (ajustable) */
@@ -24,7 +7,7 @@ footer {
     margin: 0 auto;         /* Centrado horizontal */
     display: block;         /* Asegura que la imagen se centre */
 }
-
+/* Imagen interactiva con overlay */
 .interactive-img-container {
     position: relative;
     width: 100%;
@@ -63,3 +46,9 @@ footer {
     font-size: 20px;
     font-weight: bold;
 }
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
